@@ -31,4 +31,4 @@ This Google Apps Script automates the process of granting temporary access to Go
    ```javascript
    var PARENT_FOLDER_ID = "your-shared-drive-folder-id"; // Replace with your actual folder ID
    var REVOKE_AFTER = 24; // Revoke access after 24 hours
-   var REPLY_MESSAGE = "Temporary access has been granted to the requested document. Please onboard at clinicalcohort.org/registration.";
+   var REPLY_MESSAGE = "Temporary access has been granted to the requested document. Please onboard at <<your onboarding link>>.";
