@@ -4,7 +4,7 @@ This Google Apps Script automates the process of granting temporary access to Go
 
 ## Features
 
-- **Automatic Document Sharing**: Automatically shares Google Drive documents based on email requests.
+- **Automatic Document Sharing**: Automatically shares Google Drive documents in specified folders based on email requests.
 - **Multiple Recipients**: Handles multiple email addresses in the request and shares the document with all of them.
 - **Scheduled Access Revocation**: Automatically revokes access after a configurable period.
 - **Logging**: Logs all actions, including document sharing and notifications sent, along with the recipients' email addresses.
@@ -29,6 +29,6 @@ This Google Apps Script automates the process of granting temporary access to Go
 2. **Configuration Script (`config.gs`)**: Create a separate script file named `config.gs` and add your configuration variables:
 
    ```javascript
-   var PARENT_FOLDER_ID = "your-shared-drive-folder-id"; // Replace with your actual folder ID
+   var PARENT_FOLDER_ID = "0ABCDEFG12345HIJKLMNO6789PQRSTUV"; // Replace with your actual folder ID this is not the url, but the alphanumeric fragment that identifies the folder
    var REVOKE_AFTER = 24; // Revoke access after 24 hours
    var REPLY_MESSAGE = "Temporary access has been granted to the requested document. Please onboard at <<your onboarding link>>.";
