@@ -30,5 +30,5 @@ This Google Apps Script automates the process of granting temporary access to Go
 
    ```javascript
    var PARENT_FOLDER_ID = "0ABCDEFG12345HIJKLMNO6789PQRSTUV"; // Replace with your actual folder ID this is not the url, but the alphanumeric fragment that identifies the folder
-   var REVOKE_AFTER = 24; // Revoke access after 24 hours
-   var REPLY_MESSAGE = "Temporary access has been granted to the requested document. Please onboard at <<your onboarding link>>.";
+   var REVOKE_AFTER = 24; // Revoke access after n hours
+   var REPLY_MESSAGE = "Temporary access has been granted to the requested document for <<n>> hours. Please onboard at <<your onboarding link>> for permanent access.";
