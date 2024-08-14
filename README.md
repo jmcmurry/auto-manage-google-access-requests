@@ -1,6 +1,6 @@
 # Google Apps Script: Automated Document Access Management
 
-In large multi-institutional projects it is common that people who need access to docouments have not necessarily gone through the proper onboarding channels. However, it is also the case that not all files are sensitive to share. Working from the assumption that if they're requesting access they need it and should onboard, this script achieves a happy compromise. This Google Apps Script automates the process of granting temporary access (view or edit) to Google Drive documents based on incoming Gmail requests. The script processes emails labeled as "accessRequested," shares the requested document with specified recipients, and schedules automatic revocation of access after a set period.
+In large multi-institutional projects it is common that people who need access to docouments have not necessarily gone through the proper onboarding channels. However, it is also the case that not all files are sensitive to share. Working from the assumption that if they're requesting access they need it and should onboard, this script achieves a happy compromise. This Google Apps Script automates the process of granting temporary access (view or edit) to Google Drive documents based on incoming Gmail requests. The script processes emails labeled as "accessRequested," shares the requested document with specified recipients, and schedules automatic revocation of access after a set period. During this period the person should onboard to receive access by normal means.
 
 ## Features
 
